@@ -1,7 +1,7 @@
 {
-  "name": "vue-image-crop-upload",
-  "version": "2.5.0",
-  "description": "a vue plgin for image upload and crop（vue图片剪裁上传插件）",
+  "name": "better-vue-image-crop-upload",
+  "version": "3.0.0",
+  "description": "a vue plugin for image upload and crop",
   "main": "upload-2.vue",
   "scripts": {
     "dev": "gulp",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dai-siki/vue-image-crop-upload.git"
+    "url": "git+https://github.com/mert574/vue-image-crop-upload.git"
   },
   "keywords": [
     "vue",
@@ -20,17 +20,14 @@
     "crop",
     "cropper",
     "file",
-    "avatar",
-    "文件上传",
-    "头像",
-    "图片剪裁上传"
+    "avatar"
   ],
-  "author": "dai-siki",
+  "author": "mert574",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dai-siki/vue-image-crop-upload/issues"
+    "url": "https://github.com/mert574/vue-image-crop-upload/issues"
   },
-  "homepage": "https://github.com/dai-siki/vue-image-crop-upload#readme",
+  "homepage": "https://github.com/mert574/vue-image-crop-upload#readme",
   "dependencies": {
     "babel-runtime": "^6.11.6"
   },
