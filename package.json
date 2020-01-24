@@ -1,6 +1,6 @@
 {
   "name": "better-vue-image-crop-upload",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "a vue plugin for image upload and crop",
   "main": "upload-2.vue",
   "scripts": {

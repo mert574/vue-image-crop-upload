@@ -840,7 +840,11 @@ export default {
 						return;
 					}
 					if (this.status >= 200 && this.status <= 400) {
-						resolve(JSON.parse(this.responseText));
+						try {
+							resolve(JSON.parse(this.responseText));
+						} catch (e) {
+							resolve(this.status);
+						}
 					} else {
 						reject(this.status);
 					}
