@@ -863,6 +863,7 @@ export default {
 					if (that.value) {
 						that.loading = 2;
 						that.$emit('crop-upload-success', resData, field, ki);
+						that.setStep(1);
 					}
 				},
 				// 上传失败
